@@ -1,24 +1,8 @@
-<div>
 
-# Migration of a Workload running in a Corporate Data Center to AWS using the Amazon EC2 and RDS... {#migration-of-a-workload-running-in-a-corporate-data-center-to-aws-using-the-amazon-ec2-and-rds .p-name}
 
-</div>
+# Migration of a Workload running in a Corporate Data Center to AWS using the Amazon EC2 and RDS
 
-::: {.section .p-summary field="subtitle"}
-In another project based on a real-world scenario, I acted as the Cloud
-Specialist responsible for migrating a workload running in a...
-:::
-
-::: {.section .e-content field="body"}
-::: {#b9e4 .section .section .section--body .section--first .section--last}
-::: section-divider
-
-------------------------------------------------------------------------
-:::
-
-::: section-content
-::: {.section-inner .sectionLayout--insetColumn}
-### *Migration of a Workload running in a Corporate Data Center to AWS using the Amazon EC2 and RDS service* {#9d02 .graf .graf--h3 .graf--leading .graf--title name="9d02"}
+### *Migration of a Workload running in a Corporate Data Center to AWS using the Amazon EC2 and RDS service*
 
 <figure id="880f" class="graf graf--figure graf-after--h3">
 <img
@@ -90,16 +74,4 @@ class="graf graf--figure graf-after--figure graf--trailing">
 src="https://cdn-images-1.medium.com/max/800/1*BOFxR9CMNgnyum-QsVjGpw.png"
 class="graf-image" data-image-id="1*BOFxR9CMNgnyum-QsVjGpw.png"
 data-width="2408" data-height="1300" />
-</figure>
-:::
-:::
-:::
-:::
 
-By [Andrews Valean](https://medium.com/@andrewsvalean){.p-author
-.h-card} on [March 12, 2024](https://medium.com/p/19fedb755d4d).
-
-[Canonical
-link](https://medium.com/@andrewsvalean/migration-of-a-workload-running-in-a-corporate-data-center-to-aws-using-the-amazon-ec2-and-rds-19fedb755d4d){.p-canonical}
-
-Exported from [Medium](https://medium.com) on January 22, 2026.
