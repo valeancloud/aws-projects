@@ -1,3 +1,5 @@
+# AWS-projects
+
 ## Overview
 
 This repository showcases the hands‑on AWS projects I’ve built to deepen my cloud engineering experience and document real-world infrastructure patterns. Each project reflects practical scenarios—designing, deploying, automating, and improving cloud environments using modern AWS services and best practices.
