@@ -1,24 +1,8 @@
-<div>
 
-# Implementation of a Scalable Web Application using the services of AWS Elastic Beanstalk, DynamoDB... {#implementation-of-a-scalable-web-application-using-the-services-of-aws-elastic-beanstalk-dynamodb .p-name}
 
-</div>
+# Implementation of a Scalable Web Application using the services of AWS Elastic Beanstalk, DynamoDB
 
-::: {.section .p-summary field="subtitle"}
-In this project based on a real-world scenario, I was responsible for
-implementing an application that needs to support the high demand of...
-:::
-
-::: {.section .e-content field="body"}
-::: {#ea91 .section .section .section--body .section--first .section--last}
-::: section-divider
-
-------------------------------------------------------------------------
-:::
-
-::: section-content
-::: {.section-inner .sectionLayout--insetColumn}
-### *Implementation of a Scalable Web Application using the services of AWS Elastic Beanstalk, DynamoDB, CloudFront and Edge Location* {#2545 .graf .graf--h3 .graf--leading .graf--title name="2545"}
+### *Implementation of a Scalable Web Application using the services of AWS Elastic Beanstalk, DynamoDB, CloudFront and Edge Location* 
 
 <figure id="9b89" class="graf graf--figure graf-after--h3">
 <img
@@ -103,16 +87,4 @@ class="graf graf--figure graf-after--figure graf--trailing">
 src="https://cdn-images-1.medium.com/max/800/1*TYb8rW73g3bhDUCKsAiO1Q.png"
 class="graf-image" data-image-id="1*TYb8rW73g3bhDUCKsAiO1Q.png"
 data-width="1644" data-height="890" />
-</figure>
-:::
-:::
-:::
-:::
 
-By [Andrews Valean](https://medium.com/@andrewsvalean){.p-author
-.h-card} on [March 29, 2024](https://medium.com/p/3a2ed25fa07e).
-
-[Canonical
-link](https://medium.com/@andrewsvalean/implementation-of-a-scalable-web-application-using-the-services-of-aws-elastic-beanstalk-dynamodb-3a2ed25fa07e){.p-canonical}
-
-Exported from [Medium](https://medium.com) on January 22, 2026.
