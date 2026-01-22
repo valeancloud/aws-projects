@@ -12,11 +12,31 @@ My focus is on building secure, scalable, and cost‑efficient solutions while c
 - Practical troubleshooting and implementation approaches  
 
 ## Tools and Technologies
-I rely heavily on Infrastructure as Code and automation to standardize deployments across environments:
 
-- **Terraform** for repeatable, consistent provisioning of AWS resources  
-- **CloudFormation** for templated, service‑specific deployments  
-- **AWS CLI & Bash** for automation, scripting, and operational workflows  
+This repository uses a wide range of AWS services and cloud‑engineering tools that support real‑world architecture, automation, and deployment workflows. The goal is to build secure, scalable, and maintainable cloud environments while practicing modern engineering patterns.
+
+### AWS Services
+- **Compute:** EC2, Elastic Beanstalk, Lambda  
+- **Storage & CDN:** S3, CloudFront  
+- **Databases:** RDS (MySQL), DynamoDB  
+- **Networking:** VPC, Subnets, Internet Gateway, Route Tables, Security Groups  
+- **Identity & Security:** IAM, MFA enforcement, ACM (SSL certificates)  
+- **Monitoring & Logging:** CloudWatch, CloudTrail  
+- **DNS & Domains:** Route 53  
+
+### Infrastructure as Code & Automation
+- **Terraform** for consistent, repeatable provisioning  
+- **CloudFormation** for AWS‑native templated deployments  
+- **AWS CLI** for automation and operational tasks  
+- **Bash/Shell scripting** for user migration, MFA enforcement, and workflow automation  
+
+### Development & Productivity
+- **Git & GitHub** for version control and project organization  
+- **Git Bash** for SSH access, troubleshooting, and scripting  
+- **Visual Studio Code** for application development and static site creation  
+- **Architecture diagramming tools** (Mermaid, draw.io) for visualizing cloud designs  
+
+These tools form the foundation of the projects in this repository, enabling scalable deployments, secure configurations, and hands‑on experimentation across multiple AWS services.
 
 ## Project Highlights
 - End‑to‑end cloud migrations (EC2, RDS, VPC)  
