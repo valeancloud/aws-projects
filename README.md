@@ -1,20 +1,28 @@
-# AWS-projects
+# AWS Projects
 
-## Overview
+This repository contains a collection of hands‑on AWS projects that demonstrate real-world cloud architecture, automation, and migration scenarios. Each project reflects practical experience designing, deploying, and improving cloud environments using modern AWS services and best practices.
 
-This repository showcases the hands‑on AWS projects I’ve built to deepen my cloud engineering experience and document real-world infrastructure patterns. Each project reflects practical scenarios—designing, deploying, automating, and improving cloud environments using modern AWS services and best practices.
+My focus is on building secure, scalable, and cost‑efficient solutions while continuously experimenting, breaking things, and rebuilding them to understand how systems behave under real conditions. These projects serve as both a personal knowledge base and a reference for other engineers exploring similar AWS designs.
 
-My focus is on creating secure, scalable, and cost‑efficient architectures while continuously experimenting, breaking things, and rebuilding them to understand how systems behave under real conditions. These projects serve as both a personal knowledge base and a reference for other engineers exploring similar designs.
+## What This Repository Showcases
+- Real-world AWS architecture patterns  
+- Automated deployments and cloud operations  
+- Infrastructure as Code for consistent provisioning  
+- Scalable, secure, and modular cloud solutions  
+- Practical troubleshooting and implementation approaches  
 
-To automate and standardize deployments, I rely heavily on Infrastructure as Code, including:
+## Tools and Technologies
+I rely heavily on Infrastructure as Code and automation to standardize deployments across environments:
 
-- **Terraform** for consistent, repeatable provisioning of AWS resources  
-- **CloudFormation** for templated, streamlined deployments of specific services and architectures  
+- **Terraform** for repeatable, consistent provisioning of AWS resources  
+- **CloudFormation** for templated, service‑specific deployments  
+- **AWS CLI & Bash** for automation, scripting, and operational workflows  
 
 ## Project Highlights
+- End‑to‑end cloud migrations (EC2, RDS, VPC)  
+- IAM automation and security enforcement at scale  
+- Scalable web applications using Elastic Beanstalk, DynamoDB, and CloudFront  
+- Static website hosting and DNS migration using S3, CloudFront, and Route 53  
+- Modular patterns designed for future integration and expansion  
 
-- **Real-world AWS architecture and automation examples**  
-- **Infrastructure as Code using Terraform and CloudFormation**  
-- **Summarized designs with sensitive details omitted**  
-- **Modular patterns that support future integration and scaling**  
-- **A growing reference for troubleshooting and implementation approaches**
+Each folder in this repository represents a standalone project with its own architecture, implementation details, and lessons learned.
