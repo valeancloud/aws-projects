@@ -1,24 +1,10 @@
 <div>
 
-# Automated User Migration and Management of AWS Identity and Access Management (IAM) Resources {#automated-user-migration-and-management-of-aws-identity-and-access-management-iam-resources .p-name}
+# Automated User Migration and Management of AWS Identity and Access Management (IAM) Resources 
 
 </div>
 
-::: {.section .p-summary field="subtitle"}
-Project description:
-:::
-
-::: {.section .e-content field="body"}
-::: {#f578 .section .section .section--body .section--first .section--last}
-::: section-divider
-
-------------------------------------------------------------------------
-:::
-
-::: section-content
-::: {.section-inner .sectionLayout--insetColumn}
-### *Automated User Migration and Management of AWS Identity and Access Management (IAM) Resources* {#7b0f .graf .graf--h3 .graf--leading .graf--title name="7b0f"}
-
+### *Automated User Migration and Management of AWS Identity and Access Management (IAM) Resources*
 <figure id="946a" class="graf graf--figure graf-after--h3">
 <img
 src="https://cdn-images-1.medium.com/max/800/1*jdK6qaygPGSPH-ajQu82ow.png"
@@ -65,16 +51,3 @@ class="graf graf--figure graf-after--figure graf--trailing">
 src="https://cdn-images-1.medium.com/max/800/1*sFOBiPuNYnYf_L7H_5j8dQ.png"
 class="graf-image" data-image-id="1*sFOBiPuNYnYf_L7H_5j8dQ.png"
 data-width="2524" data-height="1356" />
-</figure>
-:::
-:::
-:::
-:::
-
-By [Andrews Valean](https://medium.com/@andrewsvalean){.p-author
-.h-card} on [February 19, 2024](https://medium.com/p/b21840574af0).
-
-[Canonical
-link](https://medium.com/@andrewsvalean/automated-user-migration-and-management-of-aws-identity-and-access-management-iam-resources-b21840574af0){.p-canonical}
-
-Exported from [Medium](https://medium.com) on January 22, 2026.
