@@ -7,9 +7,9 @@ The organization needed to migrate **100 users** into AWS and ensure each accoun
 
 To solve this, I automated the entire workflow using:
 
-- **AWS CLI**
-- **Shell scripting (Bash)**
-- **Git Bash terminal**
+- AWS CLI  
+- Shell scripting (Bash)  
+- Git Bash terminal  
 
 ## What I Automated
 - Bulk creation and migration of 100 IAM users  
@@ -33,4 +33,12 @@ This project reflects real-world cloud engineering responsibilities—balancing 
 - AWS CLI automation  
 - Bash scripting for cloud operations  
 - Policy creation and enforcement  
-- Real-world user migration workflows
+- Real-world user migration workflows  
+
+## What I Learned
+- How to design and automate IAM workflows at scale  
+- The importance of enforcing MFA and password policies across large user bases  
+- How automation reduces human error and improves security posture  
+- How to troubleshoot IAM permission issues using AWS CLI  
+- The value of scripting repeatable processes to save time and ensure consistency  
+- How IAM policies, groups, and MFA enforcement work together to secure an AWS environment
