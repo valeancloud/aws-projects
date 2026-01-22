@@ -1,25 +1,10 @@
 <div>
 
-# From SquareSpace to AWS: How I Fully Migrated My Business Website and Domain {#from-squarespace-to-aws-how-i-fully-migrated-my-business-website-and-domain .p-name}
+# From SquareSpace to AWS: How I Fully Migrated My Business Website and Domain 
 
 </div>
 
-::: {.section .p-summary field="subtitle"}
-Recently, I decided it was time to take full control of my small
-business website for Harvest Vending Co. While Squarespace was a
-great...
-:::
-
-::: {.section .e-content field="body"}
-::: {#eec1 .section .section .section--body .section--first .section--last}
-::: section-divider
-
-------------------------------------------------------------------------
-:::
-
-::: section-content
-::: {.section-inner .sectionLayout--insetColumn}
-### From SquareSpace to AWS: How I Fully Migrated My Business Website and Domain {#8074 .graf .graf--h3 .graf--leading .graf--title name="8074"}
+### From SquareSpace to AWS: How I Fully Migrated My Business Website and Domain 
 
 Recently, I decided it was time to take full control of my small
 business website for Harvest Vending Co. While Squarespace was a great
@@ -31,7 +16,7 @@ and CDN --- over to AWS.
 This post walks you through exactly how I did it, including the mistakes
 I ran into and how I fixed them.
 
-### Starting Point: Domain Registered on Squarespace {#4e80 .graf .graf--h3 .graf-after--p name="4e80"}
+### Starting Point: Domain Registered on Squarespace
 
 I originally registered the domain **harvestvendingco.com** through
 Squarespace. The email, website, and basic DNS settings were managed
@@ -50,7 +35,7 @@ after registration. So instead of transferring the domain, I updated the
 nameservers to point to Route 53. This way, I could move DNS control to
 AWS immediately without waiting.
 
-### Step 1: Hosting the Static Site on S3 {#6535 .graf .graf--h3 .graf-after--p name="6535"}
+### Step 1: Hosting the Static Site on S3
 
 I created a public S3 bucket named
 [**www.harvestvendingco.com**](http://www.harvestvendingco.com){.markup--anchor
@@ -105,7 +90,7 @@ I tested the S3 static site URL and saw my website load perfectly. It
 wasn't secure yet, and didn't use my custom domain --- but that came
 next.
 
-### Step 2: Requesting an SSL Certificate in ACM {#20be .graf .graf--h3 .graf-after--p name="20be"}
+### Step 2: Requesting an SSL Certificate in ACM
 
 CloudFront requires the SSL certificate to be in **us-east-1**, so I
 made sure to switch to the N. Virginia region in AWS.
@@ -125,7 +110,7 @@ class="graf-image" data-image-id="1*IWUj58HnN_FVMj8kXZwfSA.png"
 data-width="2004" data-height="1106" />
 </figure>
 
-### Step 3: Creating a CloudFront Distribution {#8cdc .graf .graf--h3 .graf-after--figure name="8cdc"}
+### Step 3: Creating a CloudFront Distribution
 
 Next, I set up a CloudFront distribution:
 
@@ -148,7 +133,7 @@ class="graf-image" data-image-id="1*pCKLe4yihb7OpcycC8mhZg.png"
 data-width="2456" data-height="1132" />
 </figure>
 
-### Step 4: Creating a Hosted Zone in Route 53 {#4886 .graf .graf--h3 .graf-after--figure name="4886"}
+### Step 4: Creating a Hosted Zone in Route 53 
 
 While still waiting for Squarespace's 60-day lock to expire, I created a
 **public hosted zone** in Route 53 for
@@ -166,7 +151,7 @@ class="graf-image" data-image-id="1*ODBKfPL8FXzx0DqXTj5KbQ.png"
 data-width="2070" data-height="1012" />
 </figure>
 
-### Step 5: Creating DNS Records in Route 53 {#8005 .graf .graf--h3 .graf-after--figure name="8005"}
+### Step 5: Creating DNS Records in Route 53
 
 In Route 53, I created a CNAME record:
 
@@ -177,7 +162,7 @@ In Route 53, I created a CNAME record:
 This meant `www.harvestvendingco.com`{.markup--code .markup--p-code} now
 pointed to CloudFront.
 
-### Step 6: Testing HTTPS {#1953 .graf .graf--h3 .graf-after--p name="1953"}
+### Step 6: Testing HTTPS 
 
 At first, nothing worked. I realized the DNS changes were still
 propagating. After \~15 minutes, everything clicked. When I visited
@@ -191,7 +176,7 @@ class="graf-image" data-image-id="1*QViCg3J2FdCgcsvobzrhcg.png"
 data-width="1134" data-height="90" />
 </figure>
 
-### Final Thoughts {#b3ea .graf .graf--h3 .graf-after--figure name="b3ea"}
+### Final Thoughts
 
 What started as a simple idea to migrate away from Squarespace turned
 into an awesome hands-on AWS project:
@@ -224,15 +209,4 @@ data-width="1880" data-height="1420" />
 If you're thinking about doing the same, don't be afraid to jump in.
 It's a rewarding way to get hands-on AWS experience and level up your
 control over your brand.
-:::
-:::
-:::
-:::
 
-By [Andrews Valean](https://medium.com/@andrewsvalean){.p-author
-.h-card} on [May 12, 2025](https://medium.com/p/2bfebe332e8a).
-
-[Canonical
-link](https://medium.com/@andrewsvalean/from-squarespace-to-aws-how-i-fully-migrated-my-business-website-and-domain-2bfebe332e8a){.p-canonical}
-
-Exported from [Medium](https://medium.com) on January 22, 2026.
