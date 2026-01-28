@@ -25,10 +25,10 @@ to the domain too.
 
 I wanted to move to AWS so I could:
 
--   [Host a static website using S3]
--   [Use CloudFront as a CDN]
--   [Secure the site with HTTPS using ACM]
--   [Manage DNS through Route 53]
+-   Host a static website using S3
+-   Use CloudFront as a CDN
+-   Secure the site with HTTPS using ACM
+-   Manage DNS through Route 53
 
 The biggest roadblock? Squarespace locks domain transfers for 60 days
 after registration. So instead of transferring the domain, I updated the
@@ -114,13 +114,13 @@ data-width="2004" data-height="1106" />
 
 Next, I set up a CloudFront distribution:
 
--   [Origin: my S3 bucket]{#db7e}
+-   [Origin: my S3 bucket]
 -   [Alternate domain name (CNAME):
     [**www.harvestvendingco.com**](http://www.harvestvendingco.com){.markup--anchor
     .markup--li-anchor data-href="http://www.harvestvendingco.com"
-    rel="noopener" target="_blank"}]{#4b46}
--   [Viewer protocol policy: Redirect HTTP to HTTPS]{#9c78}
--   [SSL certificate: The one I requested in ACM]{#e63b}
+    rel="noopener" target="_blank"}
+-   [Viewer protocol policy: Redirect HTTP to HTTPS]
+-   [SSL certificate: The one I requested in ACM]
 
 This gave me a CloudFront domain like
 `d2rx45wl6elnp0.cloudfront.net`{.markup--code .markup--p-code}, which I
@@ -155,9 +155,9 @@ data-width="2070" data-height="1012" />
 
 In Route 53, I created a CNAME record:
 
--   [Name: `www`{.markup--code .markup--li-code}]{#f565}
--   [Type: CNAME]{#6814}
--   [Value: my CloudFront URL]{#4059}
+-   [Name: `www`{.markup--code .markup--li-code}]
+-   [Type: CNAME]
+-   [Value: my CloudFront URL]
 
 This meant `www.harvestvendingco.com`{.markup--code .markup--p-code} now
 pointed to CloudFront.
@@ -181,12 +181,12 @@ data-width="1134" data-height="90" />
 What started as a simple idea to migrate away from Squarespace turned
 into an awesome hands-on AWS project:
 
--   [Static site hosting with S3]{#b2b8}
--   [Global CDN with CloudFront]{#56cd}
--   [Free SSL with ACM]{#f201}
--   [Custom domain management in Route 53]{#37b0}
--   [Site coding and layout using Visual Studio Code]{#77cf}
--   [S3 bucket policy configuration for public hosting]{#4c54}
+-   Static site hosting with S3
+-   Global CDN with CloudFront
+-   Free SSL with ACM
+-   Custom domain management in Route 53
+-   Site coding and layout using Visual Studio Code
+-   S3 bucket policy configuration for public hosting
 
 I learned a lot troubleshooting things like propagation delays, DNS
 caching, and certificate validation issues. The best part? I now own the
