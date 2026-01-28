@@ -25,10 +25,10 @@ to the domain too.
 
 I wanted to move to AWS so I could:
 
--   [Host a static website using S3]{#ec53}
--   [Use CloudFront as a CDN]{#6558}
--   [Secure the site with HTTPS using ACM]{#7967}
--   [Manage DNS through Route 53]{#449c}
+-   [Host a static website using S3]
+-   [Use CloudFront as a CDN]
+-   [Secure the site with HTTPS using ACM]
+-   [Manage DNS through Route 53]
 
 The biggest roadblock? Squarespace locks domain transfers for 60 days
 after registration. So instead of transferring the domain, I updated the
