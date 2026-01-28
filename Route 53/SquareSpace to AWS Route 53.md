@@ -114,13 +114,13 @@ data-width="2004" data-height="1106" />
 
 Next, I set up a CloudFront distribution:
 
--   [Origin: my S3 bucket]
--   [Alternate domain name (CNAME):
+-   Origin: my S3 bucket
+-   Alternate domain name (CNAME):
     [**www.harvestvendingco.com**](http://www.harvestvendingco.com){.markup--anchor
     .markup--li-anchor data-href="http://www.harvestvendingco.com"
     rel="noopener" target="_blank"}
--   [Viewer protocol policy: Redirect HTTP to HTTPS]
--   [SSL certificate: The one I requested in ACM]
+-   Viewer protocol policy: Redirect HTTP to HTTPS
+-   SSL certificate: The one I requested in ACM
 
 This gave me a CloudFront domain like
 `d2rx45wl6elnp0.cloudfront.net`{.markup--code .markup--p-code}, which I
@@ -155,9 +155,9 @@ data-width="2070" data-height="1012" />
 
 In Route 53, I created a CNAME record:
 
--   [Name: `www`{.markup--code .markup--li-code}]
--   [Type: CNAME]
--   [Value: my CloudFront URL]
+-   Name: `www`{.markup--code .markup--li-code}
+-   Type: CNAME
+-   Value: my CloudFront URL
 
 This meant `www.harvestvendingco.com`{.markup--code .markup--p-code} now
 pointed to CloudFront.
