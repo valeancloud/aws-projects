@@ -54,10 +54,10 @@ and others respectively.
 
 In this case, "0644" means:
 
--   [The leading "0" indicates it's a regular file.]{#633a}
--   ["6" (owner permissions) means read and write access.]{#bb4a}
--   ["4" (group permissions) means read-only access.]{#3d52}
--   ["4" (other permissions) means read-only access.]{#bc74}
+-   [The leading "0" indicates it's a regular file.]
+-   ["6" (owner permissions) means read and write access.]
+-   ["4" (group permissions) means read-only access.]
+-   ["4" (other permissions) means read-only access.]
 
 For SSH key files, it's recommended to restrict permissions to be more
 restrictive because SSH keys are sensitive information. Typically, SSH
