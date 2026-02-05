@@ -65,7 +65,7 @@ key files should have permissions of "600" or "400", which means only
 the owner has read and write access, and no access for group or others.
 
 To fix this, you can change the permissions of the file using the
-`chmod`{.markup--code .markup--p-code} command in the terminal. I needed
+`chmod`command in the terminal. I needed
 to make sure the permissions on my private key file (usually a .pem
 file) were set correctly. After using the chmod command, I was able to
 resolve the issue, proceed successfully, and knock out another AWS
